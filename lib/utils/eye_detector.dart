@@ -6,9 +6,9 @@ import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart' as p;
 
-const String _serverIP   = '10.88.193.192';  // ← New IP, NO extra spaces!
+const String _serverIP = '10.10.32.94';
 const String _serverPort = '5000';
-const String _baseUrl    = 'http://$_serverIP:$_serverPort';
+const String _baseUrl = 'http://$_serverIP:$_serverPort';
 
 class ACDResult {
   final double acdPixels;
